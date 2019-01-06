@@ -3,23 +3,23 @@ layout: post
 title: "Ethical Hacking"
 ---
 
-Recently, [hackers hijacked thousands of Chromecasts to war of latest security bug](https://techcrunch.com/2019/01/02/chromecast-bug-hackers-havoc/). Once the attackers obtained access to their chromecasts they displayed a message in support of PewDiePie. These were the same attackers behind the printer hijack a few weeks prior. PS, TechCrunch, PewDiePie is not an "awful itnernet person".
+Recently, [hackers hijacked thousands of Chromecasts to war of latest security bug](https://techcrunch.com/2019/01/02/chromecast-bug-hackers-havoc/). Once the attackers obtained access to their chromecasts they displayed a message in support of PewDiePie. These were the same attackers behind the printer hijack a few weeks prior. PS, TechCrunch, PewDiePie is not an "awful internet person".
 
 HackerGiraffe eventually shutdown his twitter account due to harassment and the impending leagl threats he was receiving:
 
 https://twitter.com/RachetTwitta/status/1080809552264814592/photo/1
 
-![alt text]( ../images/hackergiraffe_1.jpg "hover over text")
+![alt text]( https://github.com/maxrenke/maxrenkeblog/blob/master//images/hackergiraffe_1.jpg "hover over text")
 
 The following twitter thread sums up what I want to discuss pretty nicely:
 
-![alt text]( ../images/twitter_1.png "hover over text")
+![alt text]( https://github.com/maxrenke/maxrenkeblog/blob/master//images/twitter_1.png "hover over text")
 
 Most security professionals do not have to think twice to know that what this guy did was not only illegal, it also not an ethical thing to do.
 
 The printer scenario is less intersteing to me than the ChromeCast scenario. HackerGiraffe repeatedly claimed that he didn't create anything new. SwiftOnSecurity has a [thread](https://twitter.com/SwiftOnSecurity/status/1080998885877780480) saying:
 
-![alt text]( ../images/swiftonsecurity.png "hover over text")
+![alt text]( https://github.com/maxrenke/maxrenkeblog/blob/master//images/swiftonsecurity.png "hover over text")
 
 So, is HackerGiraffe and his supporters right? Is this something "anyone can do" therefore "it wasn't a hack" or he did nothing wrong?
 
