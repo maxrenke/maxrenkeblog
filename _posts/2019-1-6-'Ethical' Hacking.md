@@ -5,9 +5,7 @@ title: "Ethical Hacking"
 
 Recently, [hackers hijacked thousands of Chromecasts to war of latest security bug](https://techcrunch.com/2019/01/02/chromecast-bug-hackers-havoc/). Once the attackers obtained access to their chromecasts they displayed a message in support of PewDiePie. These were the same attackers behind the printer hijack a few weeks prior. PS, TechCrunch, PewDiePie is not an "awful internet person".
 
-HackerGiraffe eventually shutdown his twitter account due to harassment and the impending leagl threats he was receiving:
-
-https://twitter.com/RachetTwitta/status/1080809552264814592/photo/1
+HackerGiraffe eventually shutdown his twitter account due to harassment and the impending leagl threats he was [receiving](https://twitter.com/RachetTwitta/status/1080809552264814592/photo/1):
 
 ![alt text]( https://github.com/maxrenke/maxrenkeblog/blob/master/images/hackergiraffe_1.jpg "hover over text")
 
