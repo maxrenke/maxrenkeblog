@@ -7,7 +7,7 @@ Recently, [hackers hijacked thousands of Chromecasts to war of latest security b
 
 HackerGiraffe eventually shutdown his twitter account due to harassment and the impending leagl threats he was [receiving](https://twitter.com/RachetTwitta/status/1080809552264814592/photo/1):
 
-![alt text]( https://github.com/maxrenke/maxrenkeblog/blob/master/images/hackergiraffe_1.jpg "hover over text")
+![alt text]( https://github.com/maxrenke/maxrenkeblog/blob/master/images/hackgiraffe_1.jpg "hover over text")
 
 The following twitter thread sums up what I want to discuss pretty nicely:
 
