@@ -2,6 +2,10 @@
 # This file contains configuration flags to customize your site
 #
 
+#add rss feed
+plugins:
+    - jekyll-feed
+
 # Theme of Jeykll Page
 theme: jekyll-theme-time-machine
 
