@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+# Theme of Jeykll Page
+theme: jekyll-theme-time-machine
+
 # Name of your site (displayed in the header)
 name: Max Renke
 
