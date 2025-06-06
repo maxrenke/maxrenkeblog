@@ -3,8 +3,6 @@ layout: post
 title: "How to Kernel Debug With Windows Sandbox"
 ---
 
-**How to Kernel Debug With Windows Sandbox**
-
 Windows Sandbox is a great tool if you want to play around with a lightweight VM with minimal setup – but did you know you can also use it to do kernel debugging?  
 <br/>Sandbox is more powerful than you might think if you utilize the command line utility cmdiag. This utility allows you to set up a number of useful configurations and options when starting the sandbox. However, today we will be focused on setting up debugging. Using a sample kernel driver from Microsoft.
 
