@@ -33,11 +33,11 @@ Now, simply start Windows Sandbox!
 
 Wohoo! The debugger is hooked in.  
 
-![Debugger hooked in!](assets/images/2025-6-6-1.png)
+![Debugger hooked in!](/_posts/assets/images/2025-6-6-1.png)
 
 Now, you can just copy the files you want into the Sandbox, and start testing! In my case, I used the [Windows Kernel Driver sample collection](https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/sample-kernel-mode-drivers), which has a user mode application nonpnpapp.exe and a driver nonpnp.sys. Fortunately, the application loads the driver itself, so no other deployment is necessary
 
-![Copy files](assets/images/2025-6-6-2.png)
+![Copy files](/_posts/assets/images/2025-6-6-2.png)
 
 Now, some of this may seem tedious, having to manually copy files over – but I have good news! This is all scriptable, because you can just use cmdiag to copy files into the VM _and_ execute commands within the VM. Therefore, one could create a script to do all this at once – set up debugging, start windbg, start the sandbox, copy files into the sandbox, and execute the script(s) copied over to the VM.
 
@@ -75,6 +75,6 @@ ExFreePoolWithTag(heapBuffer, 'WKL');
 
 For now, behold a glorious kernel crash in Windows Sandbox, caught by WinDBG!  
 
-![Crash!](assets/images/2025-6-6-3.png)
+![Crash!](/_posts/assets/images/2025-6-6-3.png)
 
 Next steps are to play around more with kernel debugging, making my own example. Ultimately I want to make a simplified driver that I can interact with and ultimately point a fuzzer at. I will intentionally implement vulnerabilities in this example to then prove to myself that I can debug them.
