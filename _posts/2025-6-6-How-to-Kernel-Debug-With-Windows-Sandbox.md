@@ -41,35 +41,13 @@ Now, some of this may seem tedious, having to manually copy files over – but I
 
 Example script, do not use:
 
-```
-\# Map temp folder in current directory
-$tempFolder = Join-Path -Path (Get-Location) -ChildPath "temp"
-if (-not (Test-Path $tempFolder)) {
-  New-Item -ItemType Directory -Path $tempFolder | Out-Null
-}
-
-\# Map into container
-cmdiag map $tempFolder "C:\\temp"
-
-\# Copy files to mapped folder
-Copy-Item "C:\\Users\\m_ren\\Downloads\\Windows-driver-samples-main\\general\\ioctl\\kmdf\\exe\\x64\\Debug\\nonpnpapp.exe" -Destination $tempFolder
-Copy-Item "C:\\Users\\m_ren\\Downloads\\Windows-driver-samples-main\\general\\ioctl\\kmdf\\sys\\x64\\Debug\\nonpnp.sys" -Destination $tempFolder
-
-\# Execute nonpnpapp.exe
-cmdiag exec ef783f92-b942-4d51-9586-a76a7c1f6f6f -Command "start c:\\nonpnpapp.exe"'''
-```
+![Script](/assets/images/2025-6-6-4.png)
 
 **Warning**: Windows Sandbox shares files with the host, so when you break into the sandbox or the Sandbox crashes, you may notice some peculiar behavior on the host. I have not done much to understand why this is the case, so **try this at your own ris**k!
 
 I want to be able to test vulnerable kernel drivers and what better way to test this end to end than to create my own driver with a heap overflow! I will have another writeup in the future on creating a kernel driver, deploying it, and debugging it.
 
-```
-//IOCTL HEAP OVERFLOW
-PUCHAR heapBuffer = (PUCHAR)ExAllocatePoolWithTag(NonPagedPool, 128, 'WKL');
-RtlCopyMemory(heapBuffer, inBuf, 512); //Overflows if inputLength > 128
-ExFreePoolWithTag(heapBuffer, 'WKL');
-//END IOCTL HEAP OVERFLOW
-```
+![Heap overflow](/assets/images/2025-6-6-5.png)
 
 For now, behold a glorious kernel crash in Windows Sandbox, caught by WinDBG!  
 
