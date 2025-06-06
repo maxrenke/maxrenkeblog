@@ -6,7 +6,7 @@ title: "How to Kernel Debug With Windows Sandbox"
 Windows Sandbox is a great tool if you want to play around with a lightweight VM with minimal setup – but did you know you can also use it to do kernel debugging?  
 <br/>Sandbox is more powerful than you might think if you utilize the command line utility cmdiag. This utility allows you to set up a number of useful configurations and options when starting the sandbox. However, today we will be focused on setting up debugging. Using a sample kernel driver from Microsoft.
 
-You can [install](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-install#installation) Windows Sandbox via Turn Windows Features on or off’ or:
+You can [install](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-install#installation) Windows Sandbox via **'Turn Windows Features on or off’** or:
 
 ```Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online```
 
@@ -16,7 +16,7 @@ You can [install](https://learn.microsoft.com/en-us/windows-hardware/drivers/deb
 
 To set up Windows Sandbox for debugging, we need to follow the [undocumented](https://stackoverflow.com/questions/62827157/can-the-windows-sandbox-feature-be-used-for-driver-testing) feature of cmdiag:
 
-```cmdiag debug -on -net -hostip 10.0.0.88```
+```cmdiag debug -on -net -hostip 10.0.0.88``` <br/>
 ```Debugging successfully enabled. Connection string: -k net:port=50000,key=cl.ea.rt.ext -v```
 
 Note: This is supposed to work with localhost, but I needed to use my machines local IP to work.
