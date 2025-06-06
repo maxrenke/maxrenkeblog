@@ -16,10 +16,8 @@ You can [install](https://learn.microsoft.com/en-us/windows-hardware/drivers/deb
 
 To set up Windows Sandbox for debugging, we need to follow the [undocumented](https://stackoverflow.com/questions/62827157/can-the-windows-sandbox-feature-be-used-for-driver-testing) feature of cmdiag:
 
-```
-cmdiag debug -on -net -hostip 10.0.0.88
-Debugging successfully enabled. Connection string: -k net:port=50000,key=cl.ea.rt.ext -v
-```
+```cmdiag debug -on -net -hostip 10.0.0.88```
+```Debugging successfully enabled. Connection string: -k net:port=50000,key=cl.ea.rt.ext -v```
 
 Note: This is supposed to work with localhost, but I needed to use my machines local IP to work.
 
