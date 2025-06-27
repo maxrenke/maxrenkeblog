@@ -3,7 +3,7 @@ layout: post
 title: "Home Lab Adventures (Part 1)"
 ---
 
-Inspired by a long desire to set up a home lab and not burdent my glorious gaming machine with the burden of hosting a linux server, I decided to finally pull the trigger and purchase the [Zimablade](https://shop.zimaspace.com/products/zimablade-single-board-server-for-cyber-native) after hearing great things about the Zimaboard over the years.
+Inspired by a long desire to set up a home lab and not burden my glorious gaming machine with the burden of hosting a linux server, I decided to finally pull the trigger and purchase the [Zimablade](https://shop.zimaspace.com/products/zimablade-single-board-server-for-cyber-native) after hearing great things about the Zimaboard over the years.
 
 ![Zimablade on my desk with a lot of snacks](/assets/images/20250623_183414304_iOS.jpg)
 
