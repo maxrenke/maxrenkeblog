@@ -3,7 +3,7 @@
 
 @import "jekyll-theme-time-machine";
 
-img {
+:not(footer) img {
     max-width: 750px;
     width: 100%;
     height: auto;
