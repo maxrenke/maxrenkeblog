@@ -48,5 +48,11 @@ $(document).ready(function(){
     $(window).scrollTop(0);
     return false;
   })
+
+  // Wrap images in a link to open in a new tab
+  $(".markdown-body img").each(function() {
+    var src = $(this).attr("src");
+    $(this).wrap("<a href='" + src + "' target='_blank' class='post-image-link'></a>");
+  });
 });
 })(jQuery)

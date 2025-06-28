@@ -481,6 +481,11 @@ footer .owner p a {
 .markdown-body img {
   max-width: 100%;
   box-sizing: border-box;
+  cursor: pointer;
+}
+
+a.post-image-link {
+  border-bottom: none;
 }
 
 @import "rouge-base16-dark";
