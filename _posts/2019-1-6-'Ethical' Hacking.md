@@ -7,17 +7,17 @@ Recently, [hackers hijacked thousands of Chromecasts to warn of latest security 
 
 HackerGiraffe eventually shutdown his twitter account due to harassment and the impending legal threats he was [receiving](https://twitter.com/RachetTwitta/status/1080809552264814592/photo/1):
 
-![alt text]( ../images/hackgiraffe_1.jpg "hover over text")
+[![alt text]( ../images/hackgiraffe_1.jpg "hover over text")]( ../images/hackgiraffe_1.jpg)
 
 The following twitter thread sums up what I want to discuss nicely:
 
-![alt text]( ../images/twitter_1.png "hover over text")
+[![alt text]( ../images/twitter_1.png "hover over text")]( ../images/twitter_1.png)
 
 Most security professionals do not have to think twice to know that what this guy did was not only illegal, it also not an ethical thing to do.
 
 The printer scenario is less interesting to me than the ChromeCast scenario. HackerGiraffe repeatedly claimed that he didn't create anything new. SwiftOnSecurity has a [thread](https://twitter.com/SwiftOnSecurity/status/1080998885877780480) saying:
 
-![alt text]( ../images/swiftonsecurity.PNG "hover over text")
+[![alt text]( ../images/swiftonsecurity.PNG "hover over text")]( ../images/swiftonsecurity.PNG)
 
 So, is HackerGiraffe and his supporters, right? Is this something "anyone can do" therefore "it wasn't a hack" or was he in the wrong?
 

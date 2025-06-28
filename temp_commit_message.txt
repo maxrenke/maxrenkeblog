@@ -1,0 +1,5 @@
+Fix: Image responsiveness and clickability
+
+- Added `width: 100%` to `.markdown-body img` in `_sass/jekyll-theme-time-machine.scss` to ensure images take full width.
+- Added `display: block` to `a.post-image-link` in `_sass/jekyll-theme-time-machine.scss` to ensure the link covers the entire image.
+- Added `console.log` to `assets/js/script.js` for debugging script execution.
