@@ -1,5 +1,3 @@
-Fix: Image responsiveness and clickability
+Feat: Make images in posts self-linking
 
-- Added `width: 100%` to `.markdown-body img` in `_sass/jekyll-theme-time-machine.scss` to ensure images take full width.
-- Added `display: block` to `a.post-image-link` in `_sass/jekyll-theme-time-machine.scss` to ensure the link covers the entire image.
-- Added `console.log` to `assets/js/script.js` for debugging script execution.
+Updated markdown files in `_posts` directory to wrap images with links to themselves, allowing them to be clickable and open in a new tab.
