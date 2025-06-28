@@ -480,12 +480,14 @@ footer .owner p a {
 
 .markdown-body img {
   max-width: 100%;
+  width: 100%; /* Added to ensure images take full width of their container */
   box-sizing: border-box;
   cursor: pointer;
 }
 
 a.post-image-link {
   border-bottom: none;
+  display: block; /* Added to ensure the link covers the entire image */
 }
 
 @import "rouge-base16-dark";

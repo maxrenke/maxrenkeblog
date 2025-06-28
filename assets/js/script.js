@@ -1,6 +1,8 @@
 (function($) {
 $(document).ready(function(){
 
+  console.log("script.js loaded and document ready!");
+
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
