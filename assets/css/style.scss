@@ -4,7 +4,22 @@
 @import "jekyll-theme-time-machine";
 
 :not(footer) img {
-    max-width: 750px;
     width: 100%;
     display: block;
+}
+
+:not(footer) img {
+    max-width: 100%;
+}
+
+:not(footer) img {
+    /* Only restrict width if image is wider than 750px */
+    width: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 751px) {
+  :not(footer) img {
+    max-width: 750px;
+  }
 }
