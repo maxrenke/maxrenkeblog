@@ -7,11 +7,11 @@ Recently, [hackers hijacked thousands of Chromecasts to warn of latest security 
 
 HackerGiraffe eventually shutdown his twitter account due to harassment and the impending legal threats he was [receiving](https://twitter.com/RachetTwitta/status/1080809552264814592/photo/1):
 
-[![alt text]( ../images/hackgiraffe_1.jpg "hover over text")]( ../images/hackgiraffe_1.jpg)
+[![alt text]( ../images/hackgiraffe_1.jpg "hover over text")]( ../images/hackgiraffe_1.jpg){:target="_blank"}
 
 The following twitter thread sums up what I want to discuss nicely:
 
-[![alt text]( ../images/twitter_1.png "hover over text")]( ../images/twitter_1.png)
+[![alt text]( ../images/twitter_1.png "hover over text")]( ../images/twitter_1.png){:target="_blank"}
 
 Most security professionals do not have to think twice to know that what this guy did was not only illegal, it also not an ethical thing to do.
 

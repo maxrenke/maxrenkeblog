@@ -5,7 +5,7 @@ title: "Home Lab Adventures (Part 1)"
 
 Inspired by a long desire to set up a home lab and not burden my glorious gaming machine with the burden of hosting a linux server, I decided to finally pull the trigger and purchase the [Zimablade](https://shop.zimaspace.com/products/zimablade-single-board-server-for-cyber-native) after hearing great things about the Zimaboard over the years.
 
-[![Zimablade on my desk with a lot of snacks](/assets/images/20250623_183414304_iOS.jpg)](/assets/images/20250623_183414304_iOS.jpg)
+[![Zimablade on my desk with a lot of snacks](/assets/images/20250623_183414304_iOS.jpg)](/assets/images/20250623_183414304_iOS.jpg){:target="_blank"}
 
 I have a really simple setup, with a 5 port managed switch from netgear underneath. I will eventually want to upgrade this to a 2.5Gbps switch, as I'm losing out on network speed to my main PC, but this is just a proof of concept.
 
@@ -29,7 +29,7 @@ I run copious amounts of ad blockers on my browswer, but I always wanted to try 
 
 This required a fun trick of making sure I can use PiHole on my devices without much effort. Luckily, PiHole runs in a docker container and maps its network interface to the host, so I just have to point the device I want to use PiHole on to the IP address of my Zimablade! This took a bit of trial and error, but I eventually got it working.
 
-[![local dns](/assets/images/localdns.png)](/assets/images/localdns.png)
+[![local dns](/assets/images/localdns.png)](/assets/images/localdns.png){:target="_blank"}
 
 The only trick is that I needed to add a local DNS record of the Zimablade's IP (10.0.0.249) so that the PiHole can look up DNS records on itself.
 
@@ -37,7 +37,7 @@ This does mean I have a failure point on all my devices using Tailscale if PiHol
 
 ## Step 3 - More Fun!
 
-[![Here's Where the Fun Begins](/assets/images/hereswherethefunbegins.png)](/assets/images/hereswherethefunbegins.png)
+[![Here's Where the Fun Begins](/assets/images/hereswherethefunbegins.png)](/assets/images/hereswherethefunbegins.png){:target="_blank"}
 
 Now, what else can I do? Well, anything really! I intend on using and abusing Docker as much as I can to spin up vulnerable web services and a Kali Linux instance to go at it. I've basically spent the last week trying different Docker things. Turns out I'm now proficient in using the Docker CLI, which is a nice bonus!
 
