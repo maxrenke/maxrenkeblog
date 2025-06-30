@@ -21,6 +21,10 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+
+  @include mobile {
+    font-size: 16px;
+  }
 }
 
 .container {
@@ -28,6 +32,10 @@ body {
   max-width: 800px;
   padding: 0 10px;
   width: 100%;
+
+  @include mobile {
+    padding: 0 15px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,19 +57,31 @@ h1 {
   a {
     color: inherit;
   }
+  @include mobile {
+    font-size: 26px;
+  }
 }
 
 h2 {
   font-size: 24px;
+  @include mobile {
+    font-size: 20px;
+  }
 }
 
 h3 {
   font-size: 20px;
+  @include mobile {
+    font-size: 18px;
+  }
 }
 
 h4 {
   font-size: 18px;
   color: $gray;
+  @include mobile {
+    font-size: 16px;
+  }
 }
 
 p {
@@ -198,6 +218,10 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+
+  @include mobile {
+    font-size: 24px;
+  }
 }
 
 .site-description {
@@ -259,6 +283,12 @@ nav {
     color: $black;
     font-size: 22px;
     font-style: italic;
+
+    @include mobile {
+      font-size: 18px;
+      margin: 1.5em .5em;
+      padding: 0.1em 0.8em;
+    }
   }
 
   .comments {
