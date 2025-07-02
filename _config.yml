@@ -5,6 +5,8 @@
 #add rss feed
 plugins:
     - jekyll-feed
+    - jekyll-remote-theme
+    - jekyll-sitemap
 
 # Theme of Jeykll Page
 theme: jekyll-theme-time-machine
@@ -78,11 +80,6 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
