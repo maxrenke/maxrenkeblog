@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How to Kernel Debug With Windows Sandbox"
+tags: ["Windows Sandbox", "Kernel Debugging", "WinDbg", "Security", "Driver Development"]
+categories: ["Security", "Windows", "Debugging"]
 ---
 
 Windows Sandbox is a great tool if you want to play around with a lightweight VM with minimal setup – but did you know you can also use it to do kernel debugging?  

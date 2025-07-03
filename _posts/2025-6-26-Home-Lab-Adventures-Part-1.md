@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Home Lab Adventures (Part 1)"
+tags: ["Home Lab", "Self-hosting", "Homelab", "Tailscale", "Pi-Hole", "Docker", "Jellyfin", "Networking"]
+categories: ["Homelab", "Networking", "Self-hosting"]
 ---
 
 Inspired by a long desire to set up a home lab and not burden my glorious gaming machine with the burden of hosting a linux server, I decided to finally pull the trigger and purchase the [Zimablade](https://shop.zimaspace.com/products/zimablade-single-board-server-for-cyber-native) after hearing great things about the Zimaboard over the years.

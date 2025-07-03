@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Ethical Hacking"
+tags: ["Ethical Hacking", "Security", "Cybersecurity"]
+categories: ["Cybersecurity"]
 ---
 
 Recently, [hackers hijacked thousands of Chromecasts to warn of latest security bug](https://techcrunch.com/2019/01/02/chromecast-bug-hackers-havoc/). Once the attackers obtained access to their chromecasts they displayed a message in support of PewDiePie, the most subscribed to Youtuber. These were the same attackers behind the printer hijack a few weeks prior. PS, TechCrunch, PewDiePie is not an "awful internet person".

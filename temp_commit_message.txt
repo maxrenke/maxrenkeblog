@@ -1,3 +1,10 @@
-Feat: Make images in posts self-linking
+feat: Migrate to jekyll-theme-chirpy and update site configuration
 
-Updated markdown files in `_posts` directory to wrap images with links to themselves, allowing them to be clickable and open in a new tab.
+This commit migrates the blog from the `jekyll-theme-time-machine` to `jekyll-theme-chirpy`.
+This involves:
+- Updating `Gemfile` to use `jekyll-theme-chirpy`.
+- Deleting old theme-specific files and directories (`_includes`, `_layouts`, `_sass`, `script`, `docs`, etc.).
+- Adding new theme-related files and directories (`_data`, `_plugins`, `_tabs`, `.github/workflows`, etc.).
+- Updating `_config.yml` with new site title, tagline, and social links.
+- Adding tags and categories to existing posts in `_posts` for better organization.
+- Configuring LinkedIn social icon in `_data/contact.yml`.
