@@ -34,16 +34,28 @@ The app figures out the rest, using [yt-dlp](https://github.com/yt-dlp/yt-dlp) u
 
 ## Getting Started
 
-To try it out, clone the repo and follow the instructions in the [README](https://github.com/maxrenke/ytdlpllm):
+See more at the [GitHub repository](https://github.com/maxrenke/ytdlpllm).
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/maxrenke/ytdlpllm.git
+git clone https://github.com/m-ren/ytdlpllm.git
 cd ytdlpllm
-pip install -r requirements.txt
-python app.py
 ```
 
-Then, open your browser to `http://localhost:7860` and start downloading with natural language!
+### Install the Dependencies
+
+```bash
+pip install .
+```
+
+### Usage
+
+To use **ytdlpllm**, simply run the command followed by your instructions in quotes:
+
+```bash
+ytdlpllm "Download this video in the best quality: https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+```
 
 ## Why I Built This
 
