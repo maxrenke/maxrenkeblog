@@ -13,7 +13,7 @@ I'm excited to introduce **ytdlpllm**, a tool I created to make downloading YouT
 
 ytdlpllm is a self-hosted web app that leverages large language models (LLMs) to interpret your requests. Instead of memorizing options or URLs, you simply tell the app what you want, like:
 
-> "Download the latest video from Veritasium in 1080p."
+> "Download this video in the best quality: https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 The app figures out the rest, using [yt-dlp](https://github.com/yt-dlp/yt-dlp) under the hood for the actual downloading.
 
